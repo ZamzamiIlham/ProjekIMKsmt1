@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+  height: 100vh;
+  width: 100%;
+  background:#DD4A48 ;
+}
+
+.data{
+  margin-top: 20px;
+}
+.data{
+  height: 45px;
+  padding-top: 10px ;
+  padding-left: 30%;
+  padding-right: 30%;
+  align-items: center;
+}
+.data label{
+  font-size: 18px;
+  padding-bottom: 30px;
+}
+.data input{
+  height: 100%;
+  width: 100%;
+  padding-left: 10px;
+  font-size: 17px;
+  border: 1px solid silver;
+}
+.data input:focus{
+  border-color: #000000;
+  border-bottom-width: 2px;
+}
+.forgot-pass{
+  margin-top: 30px;
+  padding-left: 30%;
+  padding-right: 30%;
+
+}
+.forgot-pass a{
+  color:black;
+  text-decoration: none;
+}
+.forgot-pass a:hover{
+  text-decoration: underline;
+}
+.btn{
+  margin: 30px 0;
+  height: 45px;
+  position: relative;
+  overflow: hidden;
+  padding-left: 30%;
+  padding-right: 30%;
+}
+
+.btn button{
+  height: 100%;
+  width: 100%;
+  background: #181D31;
+  border: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+.signup-link{
+  text-align: center;
+}
+.signup-link a{
+  color: #ffffff;
+  text-decoration: none;
+}
+.signup-link a:hover{
+  text-decoration: underline;
+}

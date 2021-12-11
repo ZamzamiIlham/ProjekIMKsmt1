@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>tugasakhir</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body> 
+<!-- =========== Bagian Atas ================= -->
+    <div class="header">
+    <div class="container">
+        <!-- =========== Bagian Navigasi ============ -->
+        <div class="navbar">
+            <div class="logo">
+                <img src="logo.png" width="100px">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Collection</a></li>
+                    <li><a href="">Shop</a></li>
+                    <li><a href="">Partners</a></li> 
+                </ul>
+            </nav>      
+        </div>
+        <div class="row"> 
+            <div class="col-2">
+                <h1>Tentukan Gaya Lo<br>Toko Sneakers No.1 di Indonesia</h1>
+                <br>
+                <p>kami menyediakan berbagai macam sepatu<br>dengan harga
+                yang bersahabat dan dijamin original</p>
+                <a href="" class="tombol">Belanja Sekarang</a>
+            </div>
+            <div class="col-2">
+                <img src="sepati gradient.png">
+            </div>
+        </div>
+    </div>
+    </div> 
+    <!--======================Menu Kategori====================  -->
+    <div class="kategori">
+        <h2 class="titlekate">Collection</h2>
+    </div>
+    <div class="banner">
+            <div class="row">
+                <div class="col-3">
+                <img src="Sport.png"  >
+                    <div class="banner_kategori">
+                        <a href="#">Soccer</a>   
+                    </div>
+                </div>
+                <div class="col-3">
+                <img src="sneakres.1.png"  >
+                    <div class="banner_kategori">
+                        <a href="#">Sneakers</a>  
+                    </div>
+                </div>
+                <div class="col-3">
+                <img src="casual.png" >
+                    <div class="banner_kategori">
+                        <a href="#">Casual</a>  
+                    </div>
+                </div>  
+                <div class="col-3">
+                <img src="basket.png" >
+                    <div class="banner_kategori">
+                        <a href="#">Basket</a>   
+                    </div>
+                </div>  
+            </div>
+        </div>
+    </div>
+    <!-- =====================Pilihan Seaptu =================== -->
+    <section class="section featured">
+        <div class="shop">
+            <h2 class="bagianshop">Produk</h2>
+            <p>Di sini anda dapat melihat beragam koleksi sepatu yang tersedia</p>
+        </div>
+
+        <div class="row product">
+            <div class="product">
+                    <img class="img" src="Produk1.png" />
+                    <div class="star">
+                        <img src="icons8-star-24.png" alt="">
+                        <img src="icons8-star-24.png" alt="">
+                        <img src="icons8-star-24.png" alt="">
+                        <img src="icons8-star-24.png" alt="">
+                    </div>
+                    <h5 class="p-name">Nike Mercurial</h5>
+                    <h4 class="p-price">Rp 999.000</h4>
+                    <button class="buy-btn">Beli</button>     
+            </div>
+            <div class="product">
+                <img class="img" src="produk2.png" />
+                <div class="star">
+                    <img src="icons8-star-24.png" alt="">
+                    <img src="icons8-star-24.png" alt="">
+                    <img src="icons8-star-24.png" alt="">
+                    <img src="icons8-star-24.png" alt="">
+                    <img src="icons8-star-24.png" alt="">
+                </div>
+                <h5 class="p-name">Adidas Swallow</h5>
+                <h4 class="p-price">Rp 1.200.000</h4>
+                <button class="buy-btn">Beli</button>     
+            </div>
+            <div class="product">
+                <img class="img" src="produk3.png"  />
+                <div class="star">
+                    <img src="icons8-star-24.png" alt="">
+                    <img src="icons8-star-24.png" alt="">
+                    <img src="icons8-star-24.png" alt="">
+                    <img src="icons8-star-24.png" alt="">
+                    <img src="icons8-star-24.png" alt="">
+                </div>
+                <h5 class="p-name">Nike Air Max</h5>
+                <h4 class="p-price">Rp 1.800.000</h4>
+                <button class="buy-btn">Beli</button>     
+            </div>
+            <div class="product">
+                <img class="img" src="produk2.png" />
+                <div class="star">
+                    <img src="icons8-star-24.png" alt="">
+                    <img src="icons8-star-24.png" alt="">
+                    <img src="icons8-star-24.png" alt="">
+                    <img src="icons8-star-24.png" alt="">
+                    <img src="icons8-star-24.png" alt="">
+                </div>
+                <h5 class="p-name">Adidas Swallow</h5>
+                <h4 class="p-price">Rp 1.000.000</h4>
+                <button class="buy-btn">Beli</button>     
+            </div>
+        </div>
+    </section>
+
+    <div id="copyright">
+        <div class="wrapper">
+            &copy; 2021. <b>ZuZam Sport.</b> All Rights Reserved.
+        </div>
+    </div>
+
+   
+</body>
+</html>
